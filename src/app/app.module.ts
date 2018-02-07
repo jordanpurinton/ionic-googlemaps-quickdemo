@@ -8,13 +8,11 @@ import { BaseArrayClassPage } from '../pages/base-array-class/base-array-class';
 import { PolygonPage } from '../pages/polygon/polygon';
 import { HtmlInfoWindowPage } from '../pages/html-info-window/html-info-window';
 import { MarkerClusterPage } from '../pages/marker-cluster/marker-cluster';
-import { GeocodingPage } from '../pages/geocoding/geocoding';
 import { PolylinePage } from '../pages/polyline/polyline';
 import { MarkerPage } from '../pages/marker/marker';
 import { CirclePage } from '../pages/circle/circle';
 import { GroundOverlayPage } from '../pages/ground-overlay/ground-overlay';
 import { TileOverlayPage } from '../pages/tile-overlay/tile-overlay';
-
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { GoogleMaps } from "@ionic-native/google-maps";
@@ -27,7 +25,6 @@ import { GoogleMaps } from "@ionic-native/google-maps";
     BaseArrayClassPage,
     HtmlInfoWindowPage,
     MarkerClusterPage,
-    GeocodingPage,
     PolylinePage,
     MarkerPage,
     CirclePage,
@@ -46,7 +43,6 @@ import { GoogleMaps } from "@ionic-native/google-maps";
     PolygonPage,
     HtmlInfoWindowPage,
     MarkerClusterPage,
-    GeocodingPage,
     PolylinePage,
     MarkerPage,
     CirclePage,

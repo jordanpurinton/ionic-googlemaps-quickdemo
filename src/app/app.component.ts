@@ -9,7 +9,6 @@ import { PolygonPage } from '../pages/polygon/polygon';
 import { BaseArrayClassPage } from '../pages/base-array-class/base-array-class';
 import { HtmlInfoWindowPage } from '../pages/html-info-window/html-info-window';
 import { MarkerClusterPage } from '../pages/marker-cluster/marker-cluster';
-import { GeocodingPage } from '../pages/geocoding/geocoding';
 import { MarkerPage } from '../pages/marker/marker';
 import { CirclePage } from '../pages/circle/circle';
 import { GroundOverlayPage } from '../pages/ground-overlay/ground-overlay';
@@ -39,7 +38,6 @@ export class MyApp {
       { title: 'Polygon', component: PolygonPage },
       { title: 'GroundOverlay', component: GroundOverlayPage },
       { title: 'TileOverlay', component: TileOverlayPage },
-      { title: 'Geocoding', component: GeocodingPage },
       { title: 'BaseArrayClass', component: BaseArrayClassPage }
     ];
 
